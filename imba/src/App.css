@@ -1,0 +1,49 @@
+.App {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.orange {
+  color: #ff3e02 !important;
+}
+
+.navBar {
+  background-color: white;
+  height: 150px;
+  width: 90%;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+}
+
+.joinUs {
+  height: 150px;
+  width: 150px;
+  background-color: #ff3e02;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+}
+
+.two {
+  background-image: url("https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/61684680_2200602176724409_6711742863723462656_o.jpg?_nc_cat=104&_nc_sid=e3f864&_nc_ohc=KdVzhoDvO2sAX94N5vB&_nc_ht=scontent-mad1-1.xx&oh=a720dd67bca0cacec6232a12aa977483&oe=5F36581F");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 500px;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 80px;
+}
