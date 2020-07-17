@@ -6,15 +6,14 @@ export default class two extends Component {
   render() {
     return (
       <div className="two">
-        <div>
-          <div>BUILD YOUR</div>
-          <div>FUTURE AS A</div>
-          <span className="orange">BASKETBALL PLAYER</span>
-          <h5>INTERNATIONAL</h5>
-          <h5>MANRESA</h5>
-          <h5>BASKETBALL</h5>
-          <h5>ACADEMY</h5>
-        </div>
+        <div className="lineHeight">BUILD YOUR</div>
+        <div className="lineHeight">FUTURE AS A</div>
+        <div className="orange lineHeight">BASKETBALL </div>
+        <div className="orange lineHeight mb-4">PLAYER</div>
+        <h5 className="title3 lineHeight">INTERNATIONAL</h5>
+        <h5 className="title3 lineHeight">MANRESA</h5>
+        <h5 className="title3 lineHeight">BASKETBALL</h5>
+        <h5 className="title3 lineHeight">ACADEMY</h5>
       </div>
     );
   }
