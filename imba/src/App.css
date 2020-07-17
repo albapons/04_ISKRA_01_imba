@@ -5,6 +5,7 @@
   align-items: center;
 }
 
+/* COLORS */
 .orange {
   color: #fe4c02 !important;
 }
@@ -17,125 +18,6 @@
   line-height: 0.8 !important;
 }
 
-.bottomLine {
-  border-top: solid black 4px;
-  width: 150px;
-  margin-left: 50px;
-}
-
-/* PARTS OF THE BODY */
-.navBar {
-  background-color: white;
-  height: 150px;
-  width: 85%;
-  padding-left: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 20px;
-}
-
-.joinUs {
-  height: 150px;
-  width: 150px;
-  background-color: #fe4c02;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 20px;
-}
-
-.two {
-  background-image: url("https://scontent-mad1-1.xx.fbcdn.net/v/t1.0-9/61684680_2200602176724409_6711742863723462656_o.jpg?_nc_cat=104&_nc_sid=e3f864&_nc_ohc=KdVzhoDvO2sAX94N5vB&_nc_ht=scontent-mad1-1.xx&oh=a720dd67bca0cacec6232a12aa977483&oe=5F36581F");
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 85%;
-  height: 740px;
-  color: white;
-  padding-left: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 90px;
-  font-weight: 600;
-}
-
-.three {
-  background-color: #44362d;
-  width: 85%;
-  height: 300px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 50px;
-  font-weight: 600;
-}
-
-.four {
-  background-image: url("http://www.imb-academy.com/static/media/summer-camp-1200x650px.35fba2f0.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  width: 85%;
-  height: 740px;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  padding-left: 80px;
-}
-
-.five {
-  background-color: white;
-  width: 85%;
-  height: 550px;
-  color: white;
-}
-
-.six {
-  background-color: #fe4c02;
-  height: 450px;
-  width: 450px;
-  /* width: calc(85% / 3); */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.ourTeam {
-  background-color: white;
-  width: 85%;
-  color: black;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 50px;
-  font-weight: 600;
-  padding: 60px 50px;
-}
-
-.weWantYou {
-  background-color: #fe4c02;
-  width: 85%;
-  height: 500px;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-family: "Barlow Condensed", sans-serif;
-  font-size: 50px;
-  font-weight: 600;
-}
-
 /* TEXT AND TITLES */
 .title1 {
   font-family: "Barlow Condensed", sans-serif;
@@ -145,14 +27,26 @@
 
 .title2 {
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 30px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 1;
 }
 
 .title3 {
   font-family: "Barlow Condensed", sans-serif;
-  font-size: 25px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.title4 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.title5 {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
   font-weight: 600;
 }
 
@@ -179,11 +73,12 @@
   vertical-align: middle;
   border-radius: 7px;
   transition: 0.3s;
-  width: 220px;
+  width: 240px;
 }
 
 .buttonO:hover {
   background-color: #7e2702;
+  color: white;
 }
 
 .buttonW {
@@ -201,7 +96,7 @@
   vertical-align: middle;
   border-radius: 7px;
   transition: 0.3s;
-  width: 220px;
+  width: 240px;
 }
 
 .buttonW:hover {

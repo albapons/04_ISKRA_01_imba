@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
+import "./raise.css";
 
-export default class Three extends Component {
+export default class Raise extends Component {
   render() {
     return (
       <div className="three">

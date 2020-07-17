@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
+import "./weWantYou.css";
 
 export default class WeWantYou extends Component {
   render() {

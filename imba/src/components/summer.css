@@ -1,0 +1,12 @@
+.four {
+  background-image: url("http://www.imb-academy.com/static/media/summer-camp-1200x650px.35fba2f0.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 85%;
+  height: 740px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  padding-left: 80px;
+}

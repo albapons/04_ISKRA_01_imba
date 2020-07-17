@@ -1,0 +1,9 @@
+.six {
+  background-color: #fe4c02;
+  height: 450px;
+  width: 450px;
+  /* width: calc(85% / 3); */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

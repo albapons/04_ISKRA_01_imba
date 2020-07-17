@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
+import "./summer.css";
 
 export default class four extends Component {
   render() {

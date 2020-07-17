@@ -2,13 +2,14 @@ import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavBar from "./components/navBar";
-import Two from "./components/two";
-import Three from "./components/three";
-import Four from "./components/four";
-import Five from "./components/five";
-import Six from "./components/six";
+import Build from "./components/build";
+import Raise from "./components/raise";
+import Summer from "./components/summer";
+import Years from "./components/years";
+import Services from "./components/services";
 import WeWantYou from "./components/weWantYou";
 import OurTeam from "./components/ourTeam";
+import Contact from "./components/contact";
 
 class App extends Component {
   constructor() {
@@ -20,20 +21,14 @@ class App extends Component {
     return (
       <div className="App">
         <NavBar />
-        <Two />
-        <Three />
-        <Four />
-        <Five />
-        <Six />
+        <Build />
+        <Raise />
+        <Summer />
+        <Years />
+        <Services />
         <OurTeam />
         <WeWantYou />
-        {/*<div>more about</div>
-        <div>summercamp</div>
-        <div>years</div>
-        <div>services</div>
-        <div>our team</div>
-        <div>we want you</div>
-        <div>contact + footer</div> */}
+        <Contact />
       </div>
     );
   }

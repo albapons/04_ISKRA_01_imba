@@ -1,0 +1,23 @@
+.navBar {
+  background-color: white;
+  height: 150px;
+  width: 85%;
+  padding-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+}
+
+.joinUs {
+  height: 150px;
+  width: 150px;
+  background-color: #fe4c02;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 20px;
+}

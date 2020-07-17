@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
+import "./ourTeam.css";
 
 export default class ourTeam extends Component {
   render() {
@@ -13,12 +14,13 @@ export default class ourTeam extends Component {
           <div className="col">
             <div className="row">
               <div className="col-4 px-5">
-                <img
+                <div className="picture1"></div>
+                {/* <img
                   height="150px"
                   width="150px"
                   alt="Error"
                   src="https://www.elperiodicodeaqui.com/netpublisher/minfo/imagenes/9760_basket__2_.jpg"
-                ></img>
+                ></img> */}
               </div>
               <div className="col-8">
                 <div className="title2">JAUME PONSARNAU</div>
@@ -39,15 +41,16 @@ export default class ourTeam extends Component {
           <div className="col">
             <div className="row">
               <div className="col-4 px-5">
-                <img
+                <div className="picture2"></div>
+                {/* <img
                   height="150px"
                   width="150px"
                   alt="Error"
-                  src="https://www.elperiodicodeaqui.com/netpublisher/minfo/imagenes/9760_basket__2_.jpg"
-                ></img>
+                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Pedro_Mart%C3%ADnez_-_Saski_Baskonia_20171215.jpg/1200px-Pedro_Mart%C3%ADnez_-_Saski_Baskonia_20171215.jpg"
+                ></img> */}
               </div>
               <div className="col-8">
-                <div className="title2">JAUME PONSARNAU</div>
+                <div className="title2">PEDRO MARTÍNEZ</div>
                 <div className="title3 orange">
                   Professional Basketball Coach
                 </div>
@@ -68,17 +71,18 @@ export default class ourTeam extends Component {
           <div className="col">
             <div className="row">
               <div className="col-4 px-5">
-                <img
+                <div className="picture3"></div>
+                {/* <img
                   height="150px"
                   width="150px"
                   alt="Error"
-                  src="https://www.elperiodicodeaqui.com/netpublisher/minfo/imagenes/9760_basket__2_.jpg"
-                ></img>
+                  src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Sergio_Llull.jpg"
+                ></img> */}
               </div>
               <div className="col-8">
-                <div className="title2">JAUME PONSARNAU</div>
+                <div className="title2">SERGI LLULL</div>
                 <div className="title3 orange">
-                  Professional Basketball Coach
+                  Professional Basketball Player
                 </div>
               </div>
             </div>
@@ -94,17 +98,19 @@ export default class ourTeam extends Component {
           <div className="col">
             <div className="row">
               <div className="col-4 px-5">
-                <img
+                <div className="picture4"></div>
+                {/* <img
                   height="150px"
                   width="150px"
                   alt="Error"
-                  src="https://www.elperiodicodeaqui.com/netpublisher/minfo/imagenes/9760_basket__2_.jpg"
-                ></img>
+                  src="https://i.ytimg.com/vi/UXV4H_UjWgE/maxresdefault.jpg"
+                ></img> */}
               </div>
               <div className="col-8">
-                <div className="title2">JAUME PONSARNAU</div>
-                <div className="title3 orange">
-                  Professional Basketball Coach
+                <div className="title2 mb-2">XAVI SCHELLING</div>
+                <div className="title3 orange lineHeight">
+                  Sport Science Head <br />
+                  to Sant Antonio Spurs
                 </div>
               </div>
             </div>
