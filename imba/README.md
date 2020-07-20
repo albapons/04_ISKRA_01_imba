@@ -12,3 +12,4 @@
 ### Libraries Installed
 
 - Bootstrap React: `npm install react-bootstrap bootstrap` (`https://react-bootstrap.github.io/getting-started/introduction`)
+- React Router: `npm install react-router-dom`

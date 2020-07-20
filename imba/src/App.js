@@ -1,7 +1,9 @@
 import React, { Component } from "react";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavBar from "./components/navBar";
+import Home from "./components/home";
 import Build from "./components/build";
 import Raise from "./components/raise";
 import Summer from "./components/summer";
@@ -20,15 +22,31 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <NavBar />
-        <Build />
-        <Raise />
-        <Summer />
-        <Years />
-        <Services />
-        <OurTeam />
-        <WeWantYou />
-        <Contact />
+        <Router>
+          <NavBar />
+          {/* <Build />
+          <Raise />
+          <Summer />
+          <Years />
+          <Services />
+          <OurTeam />
+          <WeWantYou />
+          <Contact /> */}
+
+          <Switch>
+            <Route path="/about">{/* <About /> */}</Route>
+            <Route path="/summerCamp">{/* <SummerCamp /> */}</Route>
+            <Route path="/18years">{/* <18years /> */}</Route>
+            <Route path="/services">{/* <Services /> */}</Route>
+            <Route path="/contact">
+              <Contact />
+            </Route>
+            <Route path="/joinUs">{/* <JoinUs /> */}</Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+        </Router>
       </div>
     );
   }
