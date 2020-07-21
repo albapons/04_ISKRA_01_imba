@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavBar from "./components/navBar";
-import Home from "./components/home";
-import About from "./components/about";
+import HomePage from "./components/homePage";
+import AboutPage from "./components/aboutPage";
+import SummerCampPage from "./components/summerCampPage";
 import ServicesPage from "./components/servicesPage";
+import ProgrammesPage from "./components/programmesPage";
 import Contact from "./components/contact";
 
 class App extends Component {
@@ -22,11 +23,17 @@ class App extends Component {
 
           <Switch>
             <Route path="/about">
-              <About />
+              <AboutPage />
             </Route>
-            <Route path="/summerCamp">{/* <SummerCamp /> */}</Route>
-            <Route path="/programmes">{/* <18years /> */}</Route>
-            <Route path="/programmes">{/* <16years /> */}</Route>
+            <Route path="/programmes/summerCamp">
+              <SummerCampPage />
+            </Route>
+            <Route path="/programmes/18years">
+              <ProgrammesPage />
+            </Route>
+            <Route path="/programmes/16years">
+              <ProgrammesPage />
+            </Route>
             <Route path="/services">
               <ServicesPage />
             </Route>
@@ -35,7 +42,7 @@ class App extends Component {
             </Route>
             <Route path="/joinUs">{/* <JoinUs /> */}</Route>
             <Route path="/">
-              <Home />
+              <HomePage />
             </Route>
           </Switch>
         </Router>

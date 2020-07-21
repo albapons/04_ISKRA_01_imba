@@ -8,7 +8,7 @@ import Values from "./values";
 import WeWantYou from "./weWantYou";
 import Imba from "./imba";
 
-export default class imba extends Component {
+export default class aboutPage extends Component {
   render() {
     return (
       <div className="App">

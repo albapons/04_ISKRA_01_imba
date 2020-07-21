@@ -1,0 +1,13 @@
+.application {
+  background-color: #44372e;
+  width: 85%;
+  padding: 40px 90px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}

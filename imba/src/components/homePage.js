@@ -9,7 +9,7 @@ import WeWantYou from "./weWantYou";
 import OurTeam from "./ourTeam";
 import Contact from "./contact";
 
-class Home extends Component {
+class HomePage extends Component {
   constructor() {
     super();
     this.state = {
@@ -32,4 +32,4 @@ class Home extends Component {
     );
   }
 }
-export default Home;
+export default HomePage;

@@ -10,7 +10,7 @@ export default class navBar2 extends Component {
         <div className="col title4">
           <Link
             style={{ color: "inherit", textDecoration: "inherit" }}
-            to="/summerCamp"
+            to="/programmes/summerCamp"
           >
             SUMMER CAMP 2019
           </Link>
@@ -22,7 +22,7 @@ export default class navBar2 extends Component {
               textDecoration: "inherit",
               textalign: "center",
             }}
-            to="/18years"
+            to="/programmes/18years"
           >
             FROM 18 YEARS OLD
           </Link>
@@ -30,7 +30,7 @@ export default class navBar2 extends Component {
         <div className="col title4">
           <Link
             style={{ color: "inherit", textDecoration: "inherit" }}
-            to="/16years"
+            to="/programmes/16years"
             className="text-center"
           >
             FROM 16 YEARS OLD

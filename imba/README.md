@@ -13,3 +13,11 @@
 
 - Bootstrap React: `npm install react-bootstrap bootstrap` (`https://react-bootstrap.github.io/getting-started/introduction`)
 - React Router: `npm install react-router-dom`
+
+#### FALTA FER:
+
+- acabar `programmes/summerCamp`
+- fer nous components per a `programmes/18years`
+- fer `/joinUs`
+- scroll up button
+- logics for the contact form
