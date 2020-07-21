@@ -1,5 +1,8 @@
 .weWantYou {
-  background-color: #fe4c02;
+  background-image: url("http://www.imb-academy.com/static/media/we-want-you-1200x424.1ae548f1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   width: 85%;
   height: 400px;
   color: white;

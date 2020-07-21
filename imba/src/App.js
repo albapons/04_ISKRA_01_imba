@@ -4,13 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import NavBar from "./components/navBar";
 import Home from "./components/home";
-import Build from "./components/build";
-import Raise from "./components/raise";
-import Summer from "./components/summer";
-import Years from "./components/years";
-import Services from "./components/services";
-import WeWantYou from "./components/weWantYou";
-import OurTeam from "./components/ourTeam";
+import About from "./components/about";
+import ServicesPage from "./components/servicesPage";
 import Contact from "./components/contact";
 
 class App extends Component {
@@ -24,20 +19,17 @@ class App extends Component {
       <div className="App">
         <Router>
           <NavBar />
-          {/* <Build />
-          <Raise />
-          <Summer />
-          <Years />
-          <Services />
-          <OurTeam />
-          <WeWantYou />
-          <Contact /> */}
 
           <Switch>
-            <Route path="/about">{/* <About /> */}</Route>
+            <Route path="/about">
+              <About />
+            </Route>
             <Route path="/summerCamp">{/* <SummerCamp /> */}</Route>
-            <Route path="/18years">{/* <18years /> */}</Route>
-            <Route path="/services">{/* <Services /> */}</Route>
+            <Route path="/programmes">{/* <18years /> */}</Route>
+            <Route path="/programmes">{/* <16years /> */}</Route>
+            <Route path="/services">
+              <ServicesPage />
+            </Route>
             <Route path="/contact">
               <Contact />
             </Route>

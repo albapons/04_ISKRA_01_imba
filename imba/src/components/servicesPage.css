@@ -1,0 +1,15 @@
+.cent {
+  width: 83%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mid {
+  background-color: #fe4c02;
+  width: 50%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

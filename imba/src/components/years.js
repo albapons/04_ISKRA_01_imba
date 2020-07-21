@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "../App.css";
 import "./years.css";
 
@@ -19,7 +19,14 @@ export default class five extends Component {
             secondary school.
           </p>
           <div className="d-flex justify-content-center">
-            <button className="buttonO mt-3">SEE THE PROGRAMME</button>
+            <button className="buttonO mt-3">
+              <Link
+                style={{ color: "inherit", textDecoration: "inherit" }}
+                to="/programmes"
+              >
+                SEE THE PROGRAMME
+              </Link>
+            </button>
           </div>
         </div>
         <div className="col-md-2 text-center">
@@ -41,7 +48,14 @@ export default class five extends Component {
             <br /> academic programme.
           </p>
           <div className="d-flex justify-content-center">
-            <button className="buttonO mt-3">SEE THE PROGRAMME</button>
+            <button className="buttonO mt-3">
+              <Link
+                style={{ color: "inherit", textDecoration: "inherit" }}
+                to="/programmes"
+              >
+                SEE THE PROGRAMME
+              </Link>
+            </button>
           </div>
         </div>
       </div>

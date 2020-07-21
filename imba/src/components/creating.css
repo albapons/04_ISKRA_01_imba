@@ -1,0 +1,11 @@
+.creating {
+  background-color: white;
+  width: 85%;
+  height: auto;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 100px 200px;
+}
