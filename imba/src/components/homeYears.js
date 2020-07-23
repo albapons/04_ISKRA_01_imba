@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "../App.css";
-import "./years.css";
+import "./homeYears.css";
 
-export default class five extends Component {
+export default class HomeYears extends Component {
   render() {
     return (
       <div className="row five d-flex align-items-center">

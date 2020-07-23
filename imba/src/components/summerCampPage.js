@@ -1,9 +1,11 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "../App.css";
 import "./summerCampPage.css";
-import ProgramResume from "./programResume";
-import Application from "./application";
+import ProgramResume from "./summerProgramResume";
+import Application from "./summerApplication";
+import Programme from "./summerProgramme";
+import OurTeam from "./summerOurTeam";
+import WhatMakesDifference from "./whatMakesDifference";
 import Creating from "./creating";
 import Agents from "./agents";
 
@@ -14,10 +16,10 @@ export default class summerCampPage extends Component {
         <div className="summerHeader">SUMMER CAMP 2019</div>
         <ProgramResume />
         <Application />
-        {/* Program */}
-        {/* Team */}
-        {/* WhatMakesDifference */}
-        <Creating />
+        <Programme />
+        <OurTeam />
+        <WhatMakesDifference />
+        <Creating creatingImba={true} />
         <Agents />
       </div>
     );

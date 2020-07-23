@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "../App.css";
-import "./build.css";
+import "./homeBuild.css";
 
-export default class Build extends Component {
+export default class homeBuild extends Component {
   render() {
     return (
       <div className="two">

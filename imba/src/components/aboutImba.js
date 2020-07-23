@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "../App.css";
-import "./imba.css";
+import "./aboutImba.css";
 
-export default class imba extends Component {
+export default class AboutImba extends Component {
   render() {
     return (
       <div className="imba">

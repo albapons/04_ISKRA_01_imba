@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "../App.css";
-import "./ourTeam.css";
+import "./homeOurTeam.css";
 
-export default class ourTeam extends Component {
+export default class homeOurTeam extends Component {
   render() {
     return (
       <div className="ourTeam">

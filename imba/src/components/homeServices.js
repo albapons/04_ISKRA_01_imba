@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "../App.css";
-import "./services.css";
+import "./homeServices.css";
 
-export default class six extends Component {
+export default class homeServices extends Component {
   render() {
     return (
       <div>

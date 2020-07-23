@@ -1,0 +1,43 @@
+.programme {
+  background-color: white;
+  width: 85%;
+  color: black;
+  display: flex;
+  padding: 80px 60px;
+}
+
+.programmeTitle {
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  line-height: 2;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.programmesHeader {
+  display: inline-flex;
+  background-color: white;
+  width: 85%;
+  height: auto;
+  color: black;
+  justify-content: center;
+  padding: 70px 300px;
+}
+
+.programmesFeatures {
+  background-color: white;
+  width: 85%;
+  height: auto;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.programmesFeaturesBox {
+  flex-grow: 1;
+  width: 33%;
+  height: auto;
+  border: 1px solid lightgrey;
+  padding: 25px 30px;
+}

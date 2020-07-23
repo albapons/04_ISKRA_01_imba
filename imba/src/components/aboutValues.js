@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import "./values.css";
+import "./aboutValues.css";
 import "../App.css";
 
-export default class values extends Component {
+export default class AboutValues extends Component {
   render() {
     return (
       <div className="values">

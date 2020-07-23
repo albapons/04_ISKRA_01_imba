@@ -1,14 +1,19 @@
 import React, { Component } from "react";
 import "../App.css";
-import "./programResume.css";
+import "./summerProgramResume.css";
 
-export default class ProgramResume extends Component {
+export default class SummerProgramResume extends Component {
   render() {
     return (
       <div className="programResume">
         <div className="row title1 lineHeight text-center">
-          A <span className="orange"> 2 WEEK-LONG PROGRAMME </span> TAILORED FOR
-          JUNIOR PLAYERS DURING THE SUMMER HOLIDAYS
+          A 2 WEEK-LONG PROGRAMME TAILORED FOR JUNIOR PLAYERS DURING THE SUMMER
+          HOLIDAYS
+        </div>
+        <br />
+        <div className="row title1 lineHeight text-center">
+          A <span className="orange text-center"> 2 WEEK-LONG PROGRAMME </span>
+          TAILORED FOR JUNIOR PLAYERS DURING THE SUMMER HOLIDAYS
         </div>
         <div className="row text my-5">
           <div className="col">

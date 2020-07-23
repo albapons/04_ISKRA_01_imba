@@ -1,14 +1,14 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "../App.css";
-import "./application.css";
+import "./summerApplication.css";
 
-export default class application extends Component {
+export default class summerApplication extends Component {
   render() {
     return (
       <div className="application">
         <div className="title2 px-5">APPLICATION</div>
-        <div className="">
+        <div className="text3">
           After initiating the application process, our legal department will
           create a contract agreement and send it to the player within 24 hours
         </div>

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./agents.css";
 import "../App.css";
 
-export default class agents extends Component {
+export default class Agents extends Component {
   render() {
     return (
       <div className="agents">
