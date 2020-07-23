@@ -16,8 +16,7 @@
 
 #### FALTA FER:
 
-- acabar `programmes/summerCamp`
-- fer nous components per a `programmes/18years`
+- acabar WHAT MAKES US DIFFERENT a `programmes/summerCamp`
 - fer `/joinUs`
 - scroll up button
 - logics for the contact form
