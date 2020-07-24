@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import "../App.css";
-import "./summerCampPage.css";
 import ProgramResume from "./summerProgramResume";
 import Application from "./summerApplication";
 import Programme from "./summerProgramme";
@@ -8,6 +6,8 @@ import OurTeam from "./summerOurTeam";
 import WhatMakesDifference from "./whatMakesDifference";
 import Creating from "./creating";
 import Agents from "./agents";
+import "../App.css";
+import "./summerCampPage.css";
 
 export default class summerCampPage extends Component {
   render() {

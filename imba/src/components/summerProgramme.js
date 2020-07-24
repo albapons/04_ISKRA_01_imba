@@ -5,8 +5,8 @@ import "../App.css";
 export default class summerProgramme extends Component {
   render() {
     return (
-      <div className="programme text2">
-        <div className="w-50 mx-3">
+      <div className="programme">
+        <div className="w-50 mx-3 text2">
           <div>
             <div className="programmeTitle">DURATION</div>
             <strong>2 weeks</strong>
@@ -26,7 +26,7 @@ export default class summerProgramme extends Component {
             <strong>Manresa </strong>(40 minutes from Barcelona).
           </div>
         </div>
-        <div className="w-50 mx-3">
+        <div className="w-50 mx-3 text2">
           <div className="programmeTitle">PRICE</div>
           <div>
             <strong>2000 € </strong>per 2 weeks

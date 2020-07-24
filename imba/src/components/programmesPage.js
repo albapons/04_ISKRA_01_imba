@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import "../App.css";
 import ProgrammesFeatures from "./programmesFeatures";
 import ProgrammesHeader from "./programmesHeader";
 import ImgFull from "./imgFull";
 import Header from "./header";
 import WeWantYou from "./weWantYou";
 import Contact from "./contact";
+import "../App.css";
 
 export default class programmesPage extends Component {
   render() {

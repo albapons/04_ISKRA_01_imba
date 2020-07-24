@@ -8,6 +8,7 @@ import SummerCampPage from "./components/summerCampPage";
 import ServicesPage from "./components/servicesPage";
 import ProgrammesPage from "./components/programmesPage";
 import Contact from "./components/contact";
+import JoinUsPage from "./components/joinUsPage";
 
 class App extends Component {
   constructor() {
@@ -40,7 +41,9 @@ class App extends Component {
             <Route path="/contact">
               <Contact />
             </Route>
-            <Route path="/joinUs">{/* <JoinUs /> */}</Route>
+            <Route path="/joinUs">
+              <JoinUsPage />
+            </Route>
             <Route path="/">
               <HomePage />
             </Route>
