@@ -18,7 +18,6 @@ export default class programmesPage extends Component {
               <div className="title1 text-white lineHeight px-5">
                 FROM 18 YEARS OLD
               </div>
-
               <p className="text text-white px-5 pt-3">
                 Develop your talent as a professional basketball player with a
                 comprehensive and versatile academic programme that includes

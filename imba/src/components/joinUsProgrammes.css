@@ -6,14 +6,41 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 80px;
+  padding: 50px;
 }
 
 .programmesIconContainer {
-  column-width: 80px;
+  column-width: 50px;
+  text-align: center;
 }
 
 .programmesIcon {
-  max-width: 50px;
-  max-width: 50px;
+  max-width: 40px;
+  max-width: 40px;
+}
+
+.grey {
+  color: grey;
+  text-align: center;
+}
+
+.selected {
+  /* text-decoration: underline solid #fe4c02 5px; */
+  text-decoration-line: underline;
+  text-decoration-thickness: 5px;
+  text-decoration-color: #fe4c02;
+  text-align: center;
+}
+
+.twoColumns {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 40px 250px;
+}
+
+.headerHeight {
+  height: 80px;
 }

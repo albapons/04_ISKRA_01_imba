@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import WeWantYou from "./joinUsWeWantYou";
 import Creating from "./creating";
 import ImgFull from "./imgFull";
 import WhatMakesDifference from "./whatMakesDifference";
@@ -12,7 +13,8 @@ export default class joinUsPage extends Component {
   render() {
     return (
       <div className="App">
-        {/* WE WANT YOU */}
+        <JoinUsSlider />
+        <WeWantYou />
         <Creating creatingImba={true} />
         <ImgFull
           src={
@@ -21,7 +23,6 @@ export default class joinUsPage extends Component {
         />
         <JoinUsProgrammes />
         <WhatMakesDifference />
-        <JoinUsSlider />
         <Contact />
       </div>
     );
