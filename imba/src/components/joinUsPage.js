@@ -13,7 +13,6 @@ export default class joinUsPage extends Component {
   render() {
     return (
       <div className="App">
-        <JoinUsSlider />
         <WeWantYou />
         <Creating creatingImba={true} />
         <ImgFull
@@ -23,6 +22,7 @@ export default class joinUsPage extends Component {
         />
         <JoinUsProgrammes />
         <WhatMakesDifference />
+        <JoinUsSlider />
         <Contact />
       </div>
     );
