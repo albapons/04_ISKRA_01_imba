@@ -1,15 +1,15 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import "./App.css";
-import HomePage from "./components/homePage";
-import AboutPage from "./components/aboutPage";
-import SummerCampPage from "./components/summerCampPage";
-import ServicesPage from "./components/servicesPage";
-import ProgrammesPage from "./components/programmesPage";
-import Contact from "./components/contact";
-import JoinUsPage from "./components/joinUsPage";
-import NavBar from "./components/navBar";
-import Slider from "./components/joinUsSlider";
+import HomePage from "./components/homePage/homePage";
+import AboutPage from "./components/aboutPage/aboutPage";
+import SummerCampPage from "./components/summerCampPage/summerCampPage";
+import ServicesPage from "./components/servicesPage/servicesPage";
+import ProgrammesPage from "./components/programmesPage/programmesPage";
+import Contact from "./components/utils/contact";
+import JoinUsPage from "./components/joinUsPage/joinUsPage";
+import NavBar from "./components/utils/navBar";
+import Slider from "./components/joinUsPage/joinUsSlider";
 
 class App extends Component {
   constructor() {
