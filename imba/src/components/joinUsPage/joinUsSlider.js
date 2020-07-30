@@ -4,6 +4,7 @@ import "../../App.css";
 
 export default function JoinUsSlider() {
   let slideIndex = 0;
+  // I have created a list to have an example, this data should come from the backend
   const [comments, setComments] = useState([
     {
       id: 1,
@@ -47,21 +48,6 @@ export default function JoinUsSlider() {
     showSlides();
   }, []);
 
-  // const showSlides = () => {
-  //   // console.log("I'm here");
-  //   var i;
-  //   var slides = document.getElementsByClassName("mySlides");
-  //   for (i = 0; i < slides.length; i++) {
-  //     slides[i].style.display = "none";
-  //   }
-  //   slideIndex++;
-  //   if (slideIndex > slides.length) {
-  //     slideIndex = 1;
-  //   }
-  //   slides[slideIndex - 1].style.display = "flex";
-  //   setTimeout(showSlides, 2000); // Change image every 2 seconds
-  // };
-
   const showSlides = (e) => {
     // console.log("I'm here");
     // Save all the slides in an array
@@ -84,11 +70,12 @@ export default function JoinUsSlider() {
       slides[slideIndex - 1].style.display = "flex";
     }
     // If not, we need to display the next slide
-    slides[slideIndex - 1].style.display = "flex";
-    // console.log(`The slide ${slideIndex} was displayed`);
-
-    // Change image every 3 seconds:
-    setTimeout(showSlides, 3000);
+    if (slides.length) {
+      slides[slideIndex - 1].style.display = "flex";
+      // console.log(`The slide ${slideIndex} was displayed`);
+    }
+    // Change image every 2.5 seconds:
+    setTimeout(showSlides, 2500);
   };
 
   const selectComment = (e) => {
@@ -109,7 +96,7 @@ export default function JoinUsSlider() {
                   backgroundImage: `url(${comment.img})`,
                 }}
               />
-              <div className="title3">{comment.author}</div>
+              <div className="title3 mt-2">{comment.author}</div>
               <div className="text text-dark">{comment.profession}</div>
             </div>
           ))}

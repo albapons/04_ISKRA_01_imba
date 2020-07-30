@@ -6,7 +6,7 @@ import "./homeSummer.css";
 export default class HomeSummer extends Component {
   render() {
     return (
-      <div className="four">
+      <div className="homeSummer">
         <div className="mb-3">
           <div className="title1 text-center">SUMMER CAMP 2019</div>
           <div className="title2 text-center">A 2 WEEK-LONG PROGRAMME</div>

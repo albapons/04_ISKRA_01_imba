@@ -6,12 +6,12 @@ import "./homeServices.css";
 export default class homeServices extends Component {
   render() {
     return (
-      <div>
+      <div className="homeServices">
         <Link
           style={{ color: "inherit", textDecoration: "inherit" }}
           to="/services"
         >
-          <div className="row">
+          <div className="homeServicesRow">
             <div className="six">
               <img
                 height="450px"
@@ -41,7 +41,7 @@ export default class homeServices extends Component {
             </div>
           </div>
 
-          <div className="row">
+          <div className="homeServicesRow">
             <div className="six">
               <div className="title1 text-white text-center lineHeight">
                 ACCOMODATION

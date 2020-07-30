@@ -1,10 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
+import "../../App.css";
+import "./contact.css";
 
-export default function selectCountries() {
+export default function selectCountries({ setCountry }) {
+  // let [country, setCountry] = useState("");
+
+  // const selectCountry = () => {
+  //   console.log(e.target.value);
+  //   setCountry(e.target.value);
+  // };
+
   return (
     <div>
-      <select id="country" className="inputText text">
-        <option disabled defaultValue value>
+      <select
+        id="country"
+        className="inputText text"
+        name="country"
+        // onChange={(e) => {
+        //   selectCountry(e.target.value);
+        // }}
+      >
+        <option className="default" defaultValue value>
           Your country
         </option>
         <option value="Afghanistan">Afghanistan</option>

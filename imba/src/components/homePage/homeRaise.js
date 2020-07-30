@@ -6,7 +6,7 @@ import "./homeRaise.css";
 export default class HomeRaise extends Component {
   render() {
     return (
-      <div className="three">
+      <div className="homeRaise">
         WE RAISE PLAYERS
         <button className="btn buttonO mt-3">
           <Link

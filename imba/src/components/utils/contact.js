@@ -6,7 +6,82 @@ import "../../App.css";
 import "./contact.css";
 
 export default class Contact extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      firstName: "",
+      lastName: "",
+      email: "",
+      country: null,
+      message: "",
+      agreement: false,
+    };
+  }
+
+  handleInput = (e) => {
+    console.log(e.value);
+
+    const value = e.target.value;
+    const name = e.target.name;
+
+    this.setState({
+      [name]: value,
+    });
+  };
+
+  setCountry = (country) => {
+    this.setState({
+      country: country,
+    });
+  };
+
+  agreementChecked = (e) => {
+    var agreement = document.getElementById("agreement");
+    // console.log(agreement.checked);
+    if (agreement.checked) {
+      this.setState({
+        agreement: true,
+      });
+    } else if (!agreement.checked) {
+      this.setState({
+        agreement: false,
+      });
+    }
+  };
+
+  sendComment = () => {
+    const {
+      firstName,
+      lastName,
+      email,
+      country,
+      message,
+      agreement,
+    } = this.state;
+
+    // We create a newMessage
+    const newMessage = {
+      firstName,
+      lastName,
+      email,
+      country,
+      message,
+      agreement,
+    };
+
+    // We need to send this message
+  };
+
   render() {
+    const {
+      firstName,
+      lastName,
+      email,
+      country,
+      message,
+      agreement,
+    } = this.state;
+
     return (
       <div className="contact">
         <div className="contact-pad">
@@ -24,6 +99,8 @@ export default class Contact extends Component {
                   type="text"
                   id="firstName"
                   name="firstName"
+                  value={firstName}
+                  onChange={(e) => this.handleInput(e)}
                   className="inputText text"
                   placeholder="First Name"
                 />
@@ -36,6 +113,8 @@ export default class Contact extends Component {
                   type="text"
                   id="lastName"
                   name="lastName"
+                  value={lastName}
+                  onChange={(e) => this.handleInput(e)}
                   className="inputText text"
                   placeholder="Last Name"
                 />
@@ -50,6 +129,8 @@ export default class Contact extends Component {
                   type="text"
                   id="email"
                   name="email"
+                  value={email}
+                  onChange={(e) => this.handleInput(e)}
                   className="inputText text"
                   placeholder="E-mail"
                 />
@@ -58,7 +139,8 @@ export default class Contact extends Component {
                 <label className="title4" htmlFor="country">
                   Country
                 </label>
-                <SelectCountries />
+                <SelectCountries setCountry={this.setCountry} />
+                {/* <SelectCountries /> */}
               </div>
             </div>
             <div className="row">
@@ -70,6 +152,8 @@ export default class Contact extends Component {
                   rows="4"
                   id="message"
                   name="message"
+                  value={message}
+                  onChange={(e) => this.handleInput(e)}
                   className="textArea text mt-2"
                   placeholder="Your message"
                 ></textarea>
@@ -81,6 +165,8 @@ export default class Contact extends Component {
                 type="checkbox"
                 className="custom-control-input checkbox"
                 id="agreement"
+                value={agreement}
+                onChange={(e) => this.agreementChecked(e)}
               />
               <label className="custom-control-label text2" htmlFor="agreement">
                 By entering my data and pressing the button "Send" I agree to my
@@ -89,7 +175,9 @@ export default class Contact extends Component {
               </label>
             </div>
           </div>
-          <button className="btn buttonO">SEND</button>
+          <button className="btn buttonO" onClick={(e) => this.sendComment()}>
+            SEND
+          </button>
         </div>
         <Footer1 />
         <Footer2 />

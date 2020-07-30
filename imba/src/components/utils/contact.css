@@ -33,15 +33,15 @@
   width: 100%;
   background-color: #44372e;
   border: none;
-  color: #57463a;
-  padding: 20px;
+  color: white;
+  padding: 0px 20px;
 }
 
 .textArea {
   width: 100%;
   background-color: #44372e;
   border: none;
-  color: #57463a;
+  color: white;
   padding: 20px;
 }
 
@@ -50,4 +50,8 @@
   width: 20px;
   color: white;
   border: 1px solid black;
+}
+
+.default {
+  opacity: 85% !important;
 }

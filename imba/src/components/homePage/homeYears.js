@@ -6,7 +6,7 @@ import "./homeYears.css";
 export default class HomeYears extends Component {
   render() {
     return (
-      <div className="row five d-flex align-items-center">
+      <div className="homeYears">
         <div className="col-md-5">
           <div className="title1 text-dark text-center">FROM</div>
           <div className="title1 text-dark text-center">

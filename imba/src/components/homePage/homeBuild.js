@@ -5,7 +5,7 @@ import "./homeBuild.css";
 export default class homeBuild extends Component {
   render() {
     return (
-      <div className="two">
+      <div className="homeBuild">
         <div className="lineHeight">BUILD YOUR</div>
         <div className="lineHeight">FUTURE AS A</div>
         <div className="orange lineHeight">BASKETBALL </div>

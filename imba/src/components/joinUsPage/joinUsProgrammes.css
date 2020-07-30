@@ -25,11 +25,17 @@
 }
 
 .selected {
+  /* OPTION 1: no subratlla */
   /* text-decoration: underline solid #fe4c02 5px; */
+
+  /* OPTION 2: ni cas de thickness */
   text-decoration-line: underline;
   text-decoration-thickness: 5px;
   text-decoration-color: #fe4c02;
   text-align: center;
+
+  /* OPTION 3: subratlla tot el div */
+  /* border-bottom: 5px solid #fe4c02; */
 }
 
 .twoColumns {
