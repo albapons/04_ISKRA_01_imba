@@ -29,7 +29,7 @@ export default class Contact extends Component {
     });
   };
 
-  handleCountry = (country) => {
+  setCountry = (country) => {
     this.setState({
       country: country,
     });
@@ -73,14 +73,7 @@ export default class Contact extends Component {
   };
 
   render() {
-    const {
-      firstName,
-      lastName,
-      email,
-      country,
-      message,
-      agreement,
-    } = this.state;
+    const { firstName, lastName, email, message, agreement } = this.state;
 
     return (
       <div className="contact">
@@ -139,8 +132,7 @@ export default class Contact extends Component {
                 <label className="title4" htmlFor="country">
                   Country
                 </label>
-                <SelectCountries setCountry={this.setCountry} />
-                {/* <SelectCountries /> */}
+                <SelectCountries handleCountry={this.setCountry} />
               </div>
             </div>
             <div className="row">

@@ -22,14 +22,14 @@ export default class homeOurTeam extends Component {
                 ></img> */}
               </div>
               <div className="col-8">
-                <div className="title2">JAUME PONSARNAU</div>
-                <div className="title3 orange">
+                <div className="pl-2 title2">JAUME PONSARNAU</div>
+                <div className="pl-2 title3 orange">
                   Professional Basketball Coach
                 </div>
               </div>
             </div>
             <div className="row">
-              <p className="text px-5 pt-3">
+              <p className="text1 px-5 pt-3">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.
@@ -49,14 +49,14 @@ export default class homeOurTeam extends Component {
                 ></img> */}
               </div>
               <div className="col-8">
-                <div className="title2">PEDRO MARTÍNEZ</div>
-                <div className="title3 orange">
+                <div className="pl-2 title2">PEDRO MARTÍNEZ</div>
+                <div className="pl-2 title3 orange">
                   Professional Basketball Coach
                 </div>
               </div>
             </div>
             <div className="row">
-              <p className="text px-5 pt-3">
+              <p className="text1 px-5 pt-3">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.
@@ -79,14 +79,14 @@ export default class homeOurTeam extends Component {
                 ></img> */}
               </div>
               <div className="col-8">
-                <div className="title2">SERGI LLULL</div>
-                <div className="title3 orange">
+                <div className="pl-2 title2">SERGI LLULL</div>
+                <div className="pl-2 title3 orange">
                   Professional Basketball Player
                 </div>
               </div>
             </div>
             <div className="row">
-              <p className="text px-5 pt-3">
+              <p className="text1 px-5 pt-3">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.
@@ -106,15 +106,15 @@ export default class homeOurTeam extends Component {
                 ></img> */}
               </div>
               <div className="col-8">
-                <div className="title2 mb-2">XAVI SCHELLING</div>
-                <div className="title3 orange lineHeight">
+                <div className="pl-2 title2 mb-2">XAVI SCHELLING</div>
+                <div className="pl-2 title3 orange lineHeight">
                   Sport Science Head <br />
                   to Sant Antonio Spurs
                 </div>
               </div>
             </div>
             <div className="row">
-              <p className="text px-5 pt-3">
+              <p className="text1 px-5 pt-3">
                 Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed
                 diam nonummy nibh euismod tincidunt ut laoreet dolore magna
                 aliquam erat volutpat.

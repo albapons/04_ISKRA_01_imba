@@ -3,12 +3,9 @@ import "../../App.css";
 import "./contact.css";
 
 export default function SelectCountries({ handleCountry }) {
-  let [country, setCountry] = useState("");
-
   const selectCountry = (e) => {
-    console.log(e.target.value);
-    setCountry(e.target.value);
-    handleCountry(country);
+    // console.log(e.target.value);
+    handleCountry(e.target.value);
   };
 
   return (
@@ -18,7 +15,7 @@ export default function SelectCountries({ handleCountry }) {
         className="inputText text"
         name="country"
         onChange={(e) => {
-          selectCountry(e.target.value);
+          selectCountry(e);
         }}
       >
         <option className="inputText text" defaultValue value>

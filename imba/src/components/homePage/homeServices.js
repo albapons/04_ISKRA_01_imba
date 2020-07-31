@@ -14,7 +14,7 @@ export default class homeServices extends Component {
           <div className="homeServicesRow">
             <div className="six">
               <img
-                height="450px"
+                height="408px"
                 width="100%"
                 alt="Error"
                 src="http://www.imb-academy.com/static/media/competitive-activity-1200x1200px.ea189b86.jpg"
@@ -33,7 +33,7 @@ export default class homeServices extends Component {
             </div>
             <div className="six">
               <img
-                height="450px"
+                height="408px"
                 width="100%"
                 alt="Error"
                 src="http://www.imb-academy.com/static/media/health-care-imba-1200x1200px.ef202a98.jpg"
@@ -54,7 +54,7 @@ export default class homeServices extends Component {
             </div>
             <div className="six">
               <img
-                height="450px"
+                height="408px"
                 width="100%"
                 alt="Error"
                 src="http://www.imb-academy.com/static/media/accomodation-imba-1200x1200px.945c4801.jpg"

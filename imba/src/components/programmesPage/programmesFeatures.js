@@ -1,5 +1,5 @@
 import React from "react";
-import "../summerCampPage/summerProgramme.css";
+import "./programmesPage.css";
 
 export default function programmeFeatures({ icon, title, text }) {
   return (

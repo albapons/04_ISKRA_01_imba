@@ -69,25 +69,32 @@ export default function JoinUsSlider() {
     }
     // Display one slide:
     if (e) {
-      console.log(`The button ${e} was pressed`);
+      // console.log(`The button ${e} was pressed`);
       // If we've selected one dot, we need to display this slide
       slideIndex = e;
       slides[slideIndex - 1].style.display = "flex";
       dots[slideIndex - 1].className += " active";
 
       // Change image every 2 seconds:
-      setTimeout(showSlides, 2000);
+      // !!time ? clearTimeout(time) : clearTimeout();
     }
 
     // If not, we need to display the next slide
     if (slides.length) {
       slides[slideIndex - 1].style.display = "flex";
       dots[slideIndex - 1].className += " active";
-      console.log(`The slide ${slideIndex} was displayed`);
+      // console.log(`The slide ${slideIndex} was displayed`);
       // Change image every 2 seconds:
-      setTimeout(showSlides, 2000);
+      // !!time ? clearTimeout(time) : clearTimeout();
     }
+    let timer = setTimeout(showSlides, 2000);
   };
+
+  // Too reset the timer
+  // function plusindex(n){
+  //   clearTimeout(timer);
+  //   let timer = setTimeout(showSlides, 2000);
+  // }
 
   const selectComment = (e) => {
     showSlides(e);

@@ -9,7 +9,6 @@ import ProgrammesPage from "./components/programmesPage/programmesPage";
 import Contact from "./components/utils/contact";
 import JoinUsPage from "./components/joinUsPage/joinUsPage";
 import NavBar from "./components/utils/navBar";
-import Slider from "./components/joinUsPage/joinUsSlider";
 
 class App extends Component {
   constructor() {
@@ -22,9 +21,6 @@ class App extends Component {
       <div className="App">
         <Router>
           <Switch>
-            <Route path="/slider">
-              <Slider />
-            </Route>
             <Route path="/about">
               <NavBar />
               <AboutPage />

@@ -1,5 +1,5 @@
 import React from "react";
-import "../summerCampPage/summerProgramme.css";
+import "./programmesPage.css";
 import "../../App.css";
 
 export default function programmesHeader({ black, orange, first }) {
