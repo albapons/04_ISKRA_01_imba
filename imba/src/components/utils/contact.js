@@ -29,7 +29,7 @@ export default class Contact extends Component {
     });
   };
 
-  setCountry = (country) => {
+  handleCountry = (country) => {
     this.setState({
       country: country,
     });

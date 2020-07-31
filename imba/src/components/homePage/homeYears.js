@@ -7,7 +7,7 @@ export default class HomeYears extends Component {
   render() {
     return (
       <div className="homeYears">
-        <div className="col-md-5">
+        <div>
           <div className="title1 text-dark text-center">FROM</div>
           <div className="title1 text-dark text-center">
             <span className="orange">18</span> YEARS OLD
@@ -29,13 +29,14 @@ export default class HomeYears extends Component {
             </button>
           </div>
         </div>
-        <div className="col-md-2 text-center">
+        <div className="text-center">
           <img
+            className="displayBall"
             alt="Error"
             src="http://www.imb-academy.com/static/media/basket-ball-iskra-265x182px.e47a35b1.png"
           ></img>
         </div>
-        <div className="col-md-5">
+        <div>
           <div className="title1 text-dark text-center lineHeight">FROM</div>
           <div className="title1 text-dark text-center">
             <span className="orange">16</span> YEARS OLD

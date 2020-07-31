@@ -52,9 +52,14 @@ export default function JoinUsSlider() {
     // console.log("I'm here");
     // Save all the slides in an array
     var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+
     // All the slides must have display = none
     for (let i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
+    }
+    for (let j = 0; j < dots.length; j++) {
+      dots[j].className = dots[j].className.replace(" active", "");
     }
     // Change the index to display the next slide
     slideIndex++;
@@ -64,18 +69,24 @@ export default function JoinUsSlider() {
     }
     // Display one slide:
     if (e) {
-      // console.log(`The button ${e} was pressed`);
+      console.log(`The button ${e} was pressed`);
       // If we've selected one dot, we need to display this slide
       slideIndex = e;
       slides[slideIndex - 1].style.display = "flex";
+      dots[slideIndex - 1].className += " active";
+
+      // Change image every 2 seconds:
+      setTimeout(showSlides, 2000);
     }
+
     // If not, we need to display the next slide
     if (slides.length) {
       slides[slideIndex - 1].style.display = "flex";
-      // console.log(`The slide ${slideIndex} was displayed`);
+      dots[slideIndex - 1].className += " active";
+      console.log(`The slide ${slideIndex} was displayed`);
+      // Change image every 2 seconds:
+      setTimeout(showSlides, 2000);
     }
-    // Change image every 2.5 seconds:
-    setTimeout(showSlides, 2500);
   };
 
   const selectComment = (e) => {

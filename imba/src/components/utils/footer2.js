@@ -4,8 +4,6 @@ import "../utils/footer2.css";
 
 export default class footer2 extends Component {
   topFunction = () => {
-    // Get the button:
-    const mybutton = document.getElementById("myBtn");
     // When the user clicks on the button, scroll to the top of the document
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera

@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "../../App.css";
 import "./contact.css";
 
-export default function selectCountries({ setCountry }) {
-  // let [country, setCountry] = useState("");
+export default function SelectCountries({ handleCountry }) {
+  let [country, setCountry] = useState("");
 
-  // const selectCountry = () => {
-  //   console.log(e.target.value);
-  //   setCountry(e.target.value);
-  // };
+  const selectCountry = (e) => {
+    console.log(e.target.value);
+    setCountry(e.target.value);
+    handleCountry(country);
+  };
 
   return (
     <div>
@@ -16,11 +17,11 @@ export default function selectCountries({ setCountry }) {
         id="country"
         className="inputText text"
         name="country"
-        // onChange={(e) => {
-        //   selectCountry(e.target.value);
-        // }}
+        onChange={(e) => {
+          selectCountry(e.target.value);
+        }}
       >
-        <option className="default" defaultValue value>
+        <option className="inputText text" defaultValue value>
           Your country
         </option>
         <option value="Afghanistan">Afghanistan</option>
