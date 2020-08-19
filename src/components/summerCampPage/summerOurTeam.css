@@ -1,0 +1,13 @@
+.summerOurTeam {
+  background-color: white;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+}
+
+.square {
+  column-width: 120px;
+  height: 100px;
+  width: 100px;
+  background-color: lightgrey;
+}

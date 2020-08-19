@@ -1,0 +1,16 @@
+.homeBuild {
+  background-image: url("http://www.imb-academy.com/static/media/basketball-player-imba-1200x650px.1ee4b666.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 85%;
+  height: 740px;
+  color: white;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 90px;
+  font-weight: 600;
+}

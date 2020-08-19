@@ -1,0 +1,13 @@
+.values {
+  background-image: url("http://www.imb-academy.com/static/media/our-values-540x490px.946e15db.png");
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  width: 85%;
+  height: 700px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

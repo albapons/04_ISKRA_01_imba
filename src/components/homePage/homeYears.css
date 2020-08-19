@@ -1,0 +1,20 @@
+.homeYears {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 85%;
+  color: white;
+  height: 550px;
+}
+
+@media screen and (max-width: 700px) {
+  .homeYears {
+    flex-direction: column;
+    height: auto;
+  }
+  .displayBall {
+    display: none;
+  }
+}
