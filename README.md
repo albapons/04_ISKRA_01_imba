@@ -19,5 +19,3 @@ IMBA: Desenvolupar aquest disseny https://projects.invisionapp.com/share/K5QYIIS
 #### FALTA FER:
 
 - RESPONSIVE DESIGN WEB
-# ISKRA_02_ingenierowork
-# ISKRA_01_imba git init
