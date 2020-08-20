@@ -1,6 +1,4 @@
-# practiquesISKRA - 1. IMBA
-
-IMBA: Desenvolupar aquest disseny https://projects.invisionapp.com/share/K5QYIISAYBH#/screens/351687454
+# practiquesISKRA
 
 ### React Scaffolding Step by Step
 
@@ -13,11 +11,12 @@ IMBA: Desenvolupar aquest disseny https://projects.invisionapp.com/share/K5QYIIS
 
 ### Libraries Installed
 
-- Bootstrap React: `npm install react-bootstrap bootstrap` (`https://react-bootstrap.github.io/getting-started/introduction`) Afegir scripts a index.html
+- Bootstrap React: `npm install react-bootstrap bootstrap` (`https://react-bootstrap.github.io/getting-started/introduction`)
 - React Router: `npm install react-router-dom`
 
 #### FALTA FER:
 
-- RESPONSIVE DESIGN WEB
-# ISKRA_02_ingenierowork
-# ISKRA_01_imba git init
+- acabar WHAT MAKES US DIFFERENT a `programmes/summerCamp`
+- fer `/joinUs`
+- scroll up button
+- logics for the contact form
