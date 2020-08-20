@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import "../../App.css";
 import "./homeSummer.css";
 
@@ -14,12 +14,14 @@ export default class HomeSummer extends Component {
           <div className="title2 text-center">DURING THE SUMMER HOLIDAYS</div>
           <div className="d-flex justify-content-center">
             <button className="buttonO mt-3">
-              <Link
-                style={{ color: "inherit", textDecoration: "inherit" }}
-                to="/summerCamp"
-              >
-                CAMP DETAILS
-              </Link>
+              <Router>
+                <Link
+                  style={{ color: "inherit", textDecoration: "inherit" }}
+                  to="/summerCamp"
+                >
+                  CAMP DETAILS
+                </Link>
+              </Router>
             </button>
           </div>
         </div>

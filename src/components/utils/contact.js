@@ -50,26 +50,24 @@ export default class Contact extends Component {
   };
 
   sendComment = () => {
-    const {
-      firstName,
-      lastName,
-      email,
-      country,
-      message,
-      agreement,
-    } = this.state;
-
-    // We create a newMessage
-    const newMessage = {
-      firstName,
-      lastName,
-      email,
-      country,
-      message,
-      agreement,
-    };
-
-    // We need to send this message
+    // const {
+    //   firstName,
+    //   lastName,
+    //   email,
+    //   country,
+    //   message,
+    //   agreement,
+    // } = this.state;
+    //! We create a newMessage
+    // const newMessage = {
+    //   firstName,
+    //   lastName,
+    //   email,
+    //   country,
+    //   message,
+    //   agreement,
+    // };
+    //! We need to send this message
   };
 
   render() {

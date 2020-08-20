@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import "../../App.css";
 import "./homeYears.css";
 
@@ -20,12 +20,14 @@ export default class HomeYears extends Component {
           </p>
           <div className="d-flex justify-content-center">
             <button className="buttonO mt-3">
-              <Link
-                style={{ color: "inherit", textDecoration: "inherit" }}
-                to="/programmes"
-              >
-                SEE THE PROGRAMME
-              </Link>
+              <Router>
+                <Link
+                  style={{ color: "inherit", textDecoration: "inherit" }}
+                  to="/programmes"
+                >
+                  SEE THE PROGRAMME
+                </Link>
+              </Router>
             </button>
           </div>
         </div>
@@ -50,12 +52,14 @@ export default class HomeYears extends Component {
           </p>
           <div className="d-flex justify-content-center">
             <button className="buttonO mt-3">
-              <Link
-                style={{ color: "inherit", textDecoration: "inherit" }}
-                to="/programmes"
-              >
-                SEE THE PROGRAMME
-              </Link>
+              <Router>
+                <Link
+                  style={{ color: "inherit", textDecoration: "inherit" }}
+                  to="/programmes"
+                >
+                  SEE THE PROGRAMME
+                </Link>
+              </Router>
             </button>
           </div>
         </div>

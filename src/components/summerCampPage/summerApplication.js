@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import "../../App.css";
 import "./summerApplication.css";
 
@@ -14,12 +14,14 @@ export default class summerApplication extends Component {
         </div>
         <div className="d-flex justify-content-center px-5">
           <button className="buttonO mt-3">
-            <Link
-              style={{ color: "inherit", textDecoration: "inherit" }}
-              to="/contact"
-            >
-              APPLY NOW
-            </Link>
+            <Router>
+              <Link
+                style={{ color: "inherit", textDecoration: "inherit" }}
+                to="/contact"
+              >
+                APPLY NOW
+              </Link>
+            </Router>
           </button>
         </div>
       </div>

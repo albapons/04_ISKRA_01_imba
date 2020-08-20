@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
 import "../../App.css";
 import "./weWantYou.css";
 
@@ -15,12 +15,14 @@ export default class WeWantYou extends Component {
           <br />
           to lead and build the future of basketball.
         </p>
-        <Link
-          style={{ color: "inherit", textDecoration: "inherit" }}
-          to="/joinUs"
-        >
-          <button className="btn buttonW mt-3">JOIN US!</button>
-        </Link>
+        <Router>
+          <Link
+            style={{ color: "inherit", textDecoration: "inherit" }}
+            to="/joinUs"
+          >
+            <button className="btn buttonW mt-3">JOIN US!</button>
+          </Link>
+        </Router>
       </div>
     );
   }
