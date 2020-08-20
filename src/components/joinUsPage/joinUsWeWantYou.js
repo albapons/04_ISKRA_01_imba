@@ -9,26 +9,21 @@ export default class joinUsWeWantYou extends Component {
     return (
       <div className="joinUsWeWantYou">
         <div className="row w-100 d-flex justify-content-between align-items-center">
-          <Router>
-            <Link
-              style={{ color: "inherit", textDecoration: "inherit" }}
-              to="/"
-            >
-              <div className="ml-5">
-                <img
-                  height="120px"
-                  alt="Error"
-                  src="http://www.imb-academy.com/static/media/logo-imba-blanc.a4c6b748.svg"
-                />
-              </div>
-            </Link>
-            <Link
-              style={{ color: "inherit", textDecoration: "inherit" }}
-              to="/joinUs"
-            >
-              <div className="joinUs title3">JOIN US!</div>
-            </Link>
-          </Router>
+          <Link style={{ color: "inherit", textDecoration: "inherit" }} to="/">
+            <div className="ml-5">
+              <img
+                height="120px"
+                alt="Error"
+                src="http://www.imb-academy.com/static/media/logo-imba-blanc.a4c6b748.svg"
+              />
+            </div>
+          </Link>
+          <Link
+            style={{ color: "inherit", textDecoration: "inherit" }}
+            to="/joinUs"
+          >
+            <div className="joinUs title3">JOIN US!</div>
+          </Link>
         </div>
 
         <div className="weWant">

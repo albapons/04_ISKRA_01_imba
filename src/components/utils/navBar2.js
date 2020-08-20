@@ -8,39 +8,33 @@ export default class navBar2 extends Component {
     return (
       <div className="navBar2">
         <div className="col title4">
-          <Router>
-            <Link
-              style={{ color: "inherit", textDecoration: "inherit" }}
-              to="/programmes/summerCamp"
-            >
-              SUMMER CAMP 2019
-            </Link>
-          </Router>
+          <Link
+            style={{ color: "inherit", textDecoration: "inherit" }}
+            to="/programmes/summerCamp"
+          >
+            SUMMER CAMP 2019
+          </Link>
         </div>
         <div className="col title4">
-          <Router>
-            <Link
-              style={{
-                color: "inherit",
-                textDecoration: "inherit",
-                textalign: "center",
-              }}
-              to="/programmes/18years"
-            >
-              FROM 18 YEARS OLD
-            </Link>
-          </Router>
+          <Link
+            style={{
+              color: "inherit",
+              textDecoration: "inherit",
+              textalign: "center",
+            }}
+            to="/programmes/18years"
+          >
+            FROM 18 YEARS OLD
+          </Link>
         </div>
         <div className="col title4">
-          <Router>
-            <Link
-              style={{ color: "inherit", textDecoration: "inherit" }}
-              to="/programmes/16years"
-              className="text-center"
-            >
-              FROM 16 YEARS OLD
-            </Link>
-          </Router>
+          <Link
+            style={{ color: "inherit", textDecoration: "inherit" }}
+            to="/programmes/16years"
+            className="text-center"
+          >
+            FROM 16 YEARS OLD
+          </Link>
         </div>
       </div>
     );

@@ -14,14 +14,12 @@ export default class HomeSummer extends Component {
           <div className="title2 text-center">DURING THE SUMMER HOLIDAYS</div>
           <div className="d-flex justify-content-center">
             <button className="buttonO mt-3">
-              <Router>
-                <Link
-                  style={{ color: "inherit", textDecoration: "inherit" }}
-                  to="/summerCamp"
-                >
-                  CAMP DETAILS
-                </Link>
-              </Router>
+              <Link
+                style={{ color: "inherit", textDecoration: "inherit" }}
+                to="/summerCamp"
+              >
+                CAMP DETAILS
+              </Link>
             </button>
           </div>
         </div>

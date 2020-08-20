@@ -20,14 +20,12 @@ export default class HomeYears extends Component {
           </p>
           <div className="d-flex justify-content-center">
             <button className="buttonO mt-3">
-              <Router>
-                <Link
-                  style={{ color: "inherit", textDecoration: "inherit" }}
-                  to="/programmes"
-                >
-                  SEE THE PROGRAMME
-                </Link>
-              </Router>
+              <Link
+                style={{ color: "inherit", textDecoration: "inherit" }}
+                to="/programmes"
+              >
+                SEE THE PROGRAMME
+              </Link>
             </button>
           </div>
         </div>
@@ -52,14 +50,12 @@ export default class HomeYears extends Component {
           </p>
           <div className="d-flex justify-content-center">
             <button className="buttonO mt-3">
-              <Router>
-                <Link
-                  style={{ color: "inherit", textDecoration: "inherit" }}
-                  to="/programmes"
-                >
-                  SEE THE PROGRAMME
-                </Link>
-              </Router>
+              <Link
+                style={{ color: "inherit", textDecoration: "inherit" }}
+                to="/programmes"
+              >
+                SEE THE PROGRAMME
+              </Link>
             </button>
           </div>
         </div>

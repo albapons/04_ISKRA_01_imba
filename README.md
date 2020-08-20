@@ -20,3 +20,4 @@ IMBA: Desenvolupar aquest disseny https://projects.invisionapp.com/share/K5QYIIS
 
 - RESPONSIVE DESIGN WEB
 - Arreglar setTimeOut SLIDER
+- React Router, errors! ( 'Router' is defined but never used )

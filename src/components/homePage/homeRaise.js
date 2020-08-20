@@ -9,14 +9,12 @@ export default class HomeRaise extends Component {
       <div className="homeRaise">
         WE RAISE PLAYERS
         <button className="btn buttonO mt-3">
-          <Router>
-            <Link
-              style={{ color: "inherit", textDecoration: "inherit" }}
-              to="/about"
-            >
-              MORE ABOUT IMBA
-            </Link>
-          </Router>
+          <Link
+            style={{ color: "inherit", textDecoration: "inherit" }}
+            to="/about"
+          >
+            MORE ABOUT IMBA
+          </Link>
         </button>
       </div>
     );
