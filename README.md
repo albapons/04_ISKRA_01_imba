@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 # practiquesISKRA
+=======
+ISKRA_01_imba
+
+IMBA: Desenvolupar aquest disseny https://projects.invisionapp.com/share/K5QYIISAYBH#/screens/351687454
+>>>>>>> 905b9c1fe7c85b07154744216200c8311c772eef
 
 ### React Scaffolding Step by Step
 
@@ -16,7 +22,11 @@
 
 #### FALTA FER:
 
+<<<<<<< HEAD
 - acabar WHAT MAKES US DIFFERENT a `programmes/summerCamp`
 - fer `/joinUs`
 - scroll up button
 - logics for the contact form
+=======
+- RESPONSIVE DESIGN WEB
+>>>>>>> 905b9c1fe7c85b07154744216200c8311c772eef
