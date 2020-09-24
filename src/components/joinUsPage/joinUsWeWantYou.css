@@ -1,5 +1,6 @@
 .joinUsWeWantYou {
-  background-image: url("http://www.imb-academy.com/static/media/we-want-you-1200x761px.91709af0.jpg");
+  /*! Imatge perduda background-image: url("http://www.imb-academy.com/static/media/we-want-you-1200x761px.91709af0.jpg"); */
+  background-image: url("/images/weWantYou.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

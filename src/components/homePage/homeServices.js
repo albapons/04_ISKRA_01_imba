@@ -17,7 +17,7 @@ export default class homeServices extends Component {
                 height="408px"
                 width="100%"
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/competitive-activity-1200x1200px.ea189b86.jpg"
+                src="/images/services1.jpg"
               ></img>
             </div>
             <div className="six">
@@ -36,7 +36,7 @@ export default class homeServices extends Component {
                 height="408px"
                 width="100%"
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/health-care-imba-1200x1200px.ef202a98.jpg"
+                src="/images/services2.jpg"
               ></img>
             </div>
           </div>
@@ -57,7 +57,7 @@ export default class homeServices extends Component {
                 height="408px"
                 width="100%"
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/accomodation-imba-1200x1200px.945c4801.jpg"
+                src="/images/services3.jpg"
               ></img>
             </div>
             <div className="six">

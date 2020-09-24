@@ -50,7 +50,7 @@ export default class whatMakesDifference extends Component {
               <div className="icon-container-orange">
                 <img
                   alt="Error"
-                  src="http://www.imb-academy.com/static/media/university-diploma-tronja.2df1e829.svg"
+                  src="/images/ICONS/ICON_diploma.png"
                   className="icon"
                 ></img>
               </div>
@@ -66,7 +66,7 @@ export default class whatMakesDifference extends Component {
             >
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/university-diploma-gris.ec749682.svg"
+                src="/images/ICONS/ICON_diplomaG.png"
                 className="icon"
                 id="diploma"
               ></img>
@@ -80,7 +80,7 @@ export default class whatMakesDifference extends Component {
               <div className="icon-container-orange">
                 <img
                   alt="Error"
-                  src="http://www.imb-academy.com/static/media/university-campus-tronja.bed83621.svg"
+                  src="/images/ICONS/ICON_campus.png"
                   className="icon"
                 ></img>
               </div>
@@ -96,7 +96,7 @@ export default class whatMakesDifference extends Component {
             >
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/university-campus-gris.31a1cb40.svg"
+                src="/images/ICONS/ICON_campusG.png"
                 className="icon"
                 id="campus"
               ></img>
@@ -110,7 +110,7 @@ export default class whatMakesDifference extends Component {
               <div className="icon-container-orange">
                 <img
                   alt="Error"
-                  src="http://www.imb-academy.com/static/media/cloud-services-tronja.1a9e986e.svg"
+                  src="/images/ICONS/ICON_brain.png"
                   className="icon"
                 ></img>
               </div>
@@ -126,7 +126,7 @@ export default class whatMakesDifference extends Component {
             >
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/cloud-services-gris.e3263800.svg"
+                src="/images/ICONS/ICON_brainG.png"
                 className="icon"
                 id="cloud"
               ></img>
@@ -140,7 +140,7 @@ export default class whatMakesDifference extends Component {
               <div className="icon-container-orange">
                 <img
                   alt="Error"
-                  src="http://www.imb-academy.com/static/media/local-team-tronja.e8a3acec.svg"
+                  src="/images/ICONS/ICON_team.png"
                   className="icon"
                 ></img>
               </div>
@@ -156,7 +156,7 @@ export default class whatMakesDifference extends Component {
             >
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/local-team-gris.fba8d8d7.svg"
+                src="/images/ICONS/ICON_teamG.png"
                 className="icon"
                 id="team"
               ></img>
@@ -170,7 +170,7 @@ export default class whatMakesDifference extends Component {
               <div className="icon-container-orange">
                 <img
                   alt="Error"
-                  src="http://www.imb-academy.com/static/media/european-leagues-tronja.0dd572b9.svg"
+                  src="/images/ICONS/ICON_europeanleague.png"
                   className="icon"
                 ></img>
               </div>
@@ -186,7 +186,7 @@ export default class whatMakesDifference extends Component {
             >
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/european-leagues-gris.939e73fe.svg"
+                src="/images/ICONS/ICON_europeanleagueG.png"
                 className="icon"
                 id="european"
               ></img>

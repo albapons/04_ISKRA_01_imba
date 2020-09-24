@@ -33,7 +33,7 @@ export default class HomeYears extends Component {
           <img
             className="displayBall"
             alt="Error"
-            src="http://www.imb-academy.com/static/media/basket-ball-iskra-265x182px.e47a35b1.png"
+            src="/images/basket-ball.png"
           ></img>
         </div>
         <div>

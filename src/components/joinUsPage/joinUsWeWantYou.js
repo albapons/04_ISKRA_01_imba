@@ -14,7 +14,7 @@ export default class joinUsWeWantYou extends Component {
               <img
                 height="120px"
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/logo-imba-blanc.a4c6b748.svg"
+                src="/images/LOGOS/LOGO_imbaW.png"
               />
             </div>
           </Link>

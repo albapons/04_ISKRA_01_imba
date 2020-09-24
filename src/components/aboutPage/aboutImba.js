@@ -6,13 +6,13 @@ export default class AboutImba extends Component {
   render() {
     return (
       <div className="imba">
-        <div>
+        {/* <div>
           <img
             height="140px"
             alt="Error"
             src="http://www.imb-academy.com/static/media/logo-imba-blanc.a4c6b748.svg"
           />
-        </div>
+        </div> */}
         <div>
           <p className="text-center pt-5">
             THE INTERNATIONAL MANRESA BASKETBALL ACADEMY (IMBA) <br />

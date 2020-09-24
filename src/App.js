@@ -11,11 +11,6 @@ import JoinUsPage from "./components/joinUsPage/joinUsPage";
 import NavBar from "./components/utils/navBar";
 
 class App extends Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
-
   render() {
     return (
       <div className="App">

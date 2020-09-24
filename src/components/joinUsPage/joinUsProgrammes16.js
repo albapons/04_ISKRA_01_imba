@@ -14,7 +14,7 @@ export default class joinUsProgrammes16 extends Component {
             <div className="programmesIconContainer">
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/physical-conditioning.a76e6297.svg"
+                src="/images/ICONS/ICON_physical-conditioning.png"
                 className="programmesIcon"
               ></img>
             </div>
@@ -30,7 +30,7 @@ export default class joinUsProgrammes16 extends Component {
             <div className="programmesIconContainer">
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/individual-skills.f780c5bb.svg"
+                src="/images/ICONS/ICON_individual-skills.png"
                 className="programmesIcon"
               ></img>
             </div>
@@ -44,7 +44,7 @@ export default class joinUsProgrammes16 extends Component {
             <div className="programmesIconContainer">
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/individual-tactics.339d217a.svg"
+                src="/images/ICONS/ICON_individual-tactics.png"
                 className="programmesIcon"
               ></img>
             </div>
@@ -58,7 +58,7 @@ export default class joinUsProgrammes16 extends Component {
             <div className="programmesIconContainer">
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/collective-tactics.df77ce92.svg"
+                src="/images/ICONS/ICON_collective-tactics.png"
                 className="programmesIcon"
               ></img>
             </div>
@@ -72,7 +72,7 @@ export default class joinUsProgrammes16 extends Component {
             <div className="programmesIconContainer">
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/emotional-training.31b0ee25.svg"
+                src="/images/ICONS/ICON_emocional-training.png"
                 className="programmesIcon"
               ></img>
             </div>
@@ -86,7 +86,7 @@ export default class joinUsProgrammes16 extends Component {
             <div className="programmesIconContainer">
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/performance-programmes.190dee9a.svg"
+                src="/images/ICONS/ICON_performance-training.png"
                 className="programmesIcon"
               ></img>
             </div>
@@ -106,7 +106,7 @@ export default class joinUsProgrammes16 extends Component {
             <div className="programmesIconContainer">
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/professional-development.d16b7754.svg"
+                src="/images/ICONS/ICON_professional-development.png"
                 className="programmesIcon"
               ></img>
             </div>
@@ -123,7 +123,7 @@ export default class joinUsProgrammes16 extends Component {
             <div className="programmesIconContainer">
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/marketing.d59bf3bb.svg"
+                src="/images/ICONS/ICON_higher-vocacional-degrees.png"
                 className="programmesIcon"
               ></img>
             </div>
@@ -139,7 +139,7 @@ export default class joinUsProgrammes16 extends Component {
             <div className="programmesIconContainer">
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/sports-management.e16d86e9.svg"
+                src="/images/ICONS/ICON_sports-management-degree.png"
                 className="programmesIcon"
               ></img>
             </div>
@@ -160,7 +160,7 @@ export default class joinUsProgrammes16 extends Component {
             <div className="programmesIconContainer">
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/residence.450ce96c.svg"
+                src="/images/ICONS/ICON_residence.png"
                 className="programmesIcon"
               ></img>
             </div>
@@ -174,7 +174,7 @@ export default class joinUsProgrammes16 extends Component {
             <div className="programmesIconContainer">
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/individual-meals.5cce8025.svg"
+                src="/images/ICONS/ICON_individual-meals.png"
                 className="programmesIcon"
               ></img>
             </div>
@@ -191,7 +191,7 @@ export default class joinUsProgrammes16 extends Component {
             <div className="programmesIconContainer">
               <img
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/university-life.0352f9a5.svg"
+                src="/images/ICONS/ICON_university-life.png"
                 className="programmesIcon"
               ></img>
             </div>

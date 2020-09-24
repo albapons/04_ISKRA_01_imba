@@ -31,7 +31,7 @@ export default class programmesPage extends Component {
                 height="auto"
                 width="100%"
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/from-18-years-program-imba-1200x1200px.6006dc87.jpg"
+                src="/images/programmes.jpg"
               ></img>
             </div>
           </div>
@@ -43,47 +43,31 @@ export default class programmesPage extends Component {
         />
         <div className="programmesFeatures">
           <ProgrammesFeatures
-            icon={
-              "http://www.imb-academy.com/static/media/physical-conditioning.a76e6297.svg"
-            }
+            icon={"/images/ICONS/ICON_physical-conditioning.png"}
             title={"PHYSICAL CONDITIONING"}
           />
           <ProgrammesFeatures
-            icon={
-              "http://www.imb-academy.com/static/media/individual-skills.f780c5bb.svg"
-            }
+            icon={"/images/ICONS/ICON_individual-skills.png"}
             title={"INDIVIDUAL SKILLS"}
           />
           <ProgrammesFeatures
-            icon={
-              "http://www.imb-academy.com/static/media/individual-tactics.339d217a.svg"
-            }
+            icon={"/images/ICONS/ICON_individual-tactics.png"}
             title={"INDIVIDUAL TACTICS"}
           />
           <ProgrammesFeatures
-            icon={
-              "http://www.imb-academy.com/static/media/collective-tactics.df77ce92.svg"
-            }
+            icon={"/images/ICONS/ICON_collective-tactics.png"}
             title={"COLLECTIVE TACTICS"}
           />
           <ProgrammesFeatures
-            icon={
-              "http://www.imb-academy.com/static/media/emotional-training.31b0ee25.svg"
-            }
+            icon={"/images/ICONS/ICON_emocional-training.png"}
             title={"EMOTIONAL TRAINING"}
           />
           <ProgrammesFeatures
-            icon={
-              "http://www.imb-academy.com/static/media/performance-programmes.190dee9a.svg"
-            }
+            icon={"/images/ICONS/ICON_performance-training.png"}
             title={"PERFORMANCE TRAINING"}
           />
         </div>
-        <ImgFull
-          src={
-            "http://www.imb-academy.com/static/media/training-imba-1200x520px.7870f45b.jpg"
-          }
-        />
+        <ImgFull src={"/images/programmes-fully1.jpg"} />
         <ProgrammesHeader
           black={"COMBINE YOUR SPORTS CAREER WITH YOUR"}
           orange={"HIGHER EDUCATION"}
@@ -91,29 +75,20 @@ export default class programmesPage extends Component {
         />
         <div className="programmesFeatures">
           <ProgrammesFeatures
-            icon={
-              "http://www.imb-academy.com/static/media/professional-development.d16b7754.svg"
-            }
+            icon={"/images/ICONS/ICON_professional-development.png"}
             title={"PROFESSIONAL DEVELOPMENT"}
           />
           <ProgrammesFeatures
-            icon={
-              "http://www.imb-academy.com/static/media/marketing.d59bf3bb.svg"
-            }
+            icon={"/images/ICONS/ICON_higher-vocacional-degrees.png"}
             title={"HIGHER VOCATIONAL DEGREES"}
           />
           <ProgrammesFeatures
-            icon={
-              "http://www.imb-academy.com/static/media/sports-management.e16d86e9.svg"
-            }
+            icon={"/images/ICONS/ICON_sports-management-degree.png"}
             title={"SPORTS MANAGEMENT DEGREE"}
           />
         </div>
-        <ImgFull
-          src={
-            "http://www.imb-academy.com/static/media/higuer-education-imba-1200x520px.1de8a5fb.jpg"
-          }
-        />
+        <ImgFull src={"/images/programmes-fully2.jpg"} />
+
         <ProgrammesHeader
           black={"IN RESIDENCE"}
           orange={"ACCOMODATION"}
@@ -121,34 +96,25 @@ export default class programmesPage extends Component {
         />
         <div className="programmesFeatures">
           <ProgrammesFeatures
-            icon={
-              "http://www.imb-academy.com/static/media/residence.450ce96c.svg"
-            }
+            icon={"/images/ICONS/ICON_residence.png"}
             title={"RESIDENCE"}
             text={"Accommodation in residence"}
           />
           <ProgrammesFeatures
-            icon={
-              "http://www.imb-academy.com/static/media/individual-meals.5cce8025.svg"
-            }
+            icon={"/images/ICONS/ICON_individual-meals.png"}
             title={"INDIVIDUAL MEALS"}
             text={
               "Includes a plan of meals specially designed by a nutritionist to fit your needs"
             }
           />
           <ProgrammesFeatures
-            icon={
-              "http://www.imb-academy.com/static/media/university-life.0352f9a5.svg"
-            }
+            icon={"/images/ICONS/ICON_university-life.png"}
             title={"UNIVERSITY LIFE"}
             text={"Live and study at the heart of the university campus"}
           />
         </div>
-        <ImgFull
-          src={
-            "http://www.imb-academy.com/static/media/accommodation-imba-1200x520px.0e45170f.jpg"
-          }
-        />
+        <ImgFull src={"/images/programmes-fully3.jpg"} />
+
         <WeWantYou />
         <Contact />
       </div>

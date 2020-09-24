@@ -15,11 +15,15 @@ export default class joinUsPage extends Component {
       <div className="App">
         <WeWantYou />
         <Creating creatingImba={true} />
-        <ImgFull
+        {
+          //! imatge perduda, no guardada!
+          /* <ImgFull
           src={
             "http://www.imb-academy.com/static/media/our-programs-1200x600px.f3c6ed35.jpg"
           }
-        />
+        /> */
+        }
+        <ImgFull src={"/images/programmes-fully1.jpg"} />
         <JoinUsProgrammes />
         <WhatMakesDifference />
         <JoinUsSlider />

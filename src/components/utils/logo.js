@@ -5,11 +5,7 @@ import "../../App.css";
 export default function logo({ height }) {
   return (
     <div>
-      <img
-        height={height}
-        alt="Error"
-        src="http://www.imb-academy.com/static/media/logo.f5740aa0.svg"
-      />
+      <img height={height} alt="Error" src="/images/LOGOS/LOGO_navbar.png" />
     </div>
   );
 }

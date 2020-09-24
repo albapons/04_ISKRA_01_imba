@@ -10,7 +10,7 @@ export default class servicesPage extends Component {
       <div className="App">
         <Header title={"SERVICES"} />
         <div className="cent">
-          <div className="row d-flex justify-content-center">
+          <div className="row">
             <div className="mid">
               <div className="title1 text-white text-center lineHeight">
                 COMPETITIVE
@@ -27,7 +27,7 @@ export default class servicesPage extends Component {
                 height="auto"
                 width="100%"
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/competitive-activity-1200x1200px.ea189b86.jpg"
+                src="/images/services1.jpg"
               ></img>
             </div>
           </div>
@@ -37,7 +37,7 @@ export default class servicesPage extends Component {
                 height="auto"
                 width="100%"
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/accomodation-imba-1200x1200px.945c4801.jpg"
+                src="/images/services2.jpg"
               ></img>
             </div>
             <div className="mid">
@@ -69,7 +69,7 @@ export default class servicesPage extends Component {
                 height="auto"
                 width="100%"
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/health-care-imba-1200x1200px.ef202a98.jpg"
+                src="/images/services3.jpg"
               ></img>
             </div>
           </div>
@@ -79,7 +79,7 @@ export default class servicesPage extends Component {
                 height="auto"
                 width="100%"
                 alt="Error"
-                src="http://www.imb-academy.com/static/media/mentoring-imba-1200x1200px.7d09aad2.jpg"
+                src="/images/services4.jpg"
               ></img>
             </div>
             <div className="mid">
